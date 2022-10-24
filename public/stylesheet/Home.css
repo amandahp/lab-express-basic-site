@@ -1,0 +1,48 @@
+.home{
+  display: flex;
+  flex-direction: column;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.text h1 {
+  display: inline;
+  color: var(--white);
+  font-size: 2rem;
+  height: auto;
+  padding-bottom: 50px;
+}
+
+.text p{
+  display: inline;
+  height: auto;
+  font-size: 1.5rem;
+}
+
+.audio-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.polygon{
+  clip-path: circle(30% at 46% 44%);
+  width: 400px;
+  height: 250px;
+  margin: 40px 40px 0px 70px;
+}
+
+.audio{
+  width: 200px;
+  height: 30px;
+}
+
+iframe{
+  width: 200px;
+  height: 150px;
+}

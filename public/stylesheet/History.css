@@ -1,0 +1,19 @@
+main{
+  background: url(../images/Pink-Floyd-.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main h1 {
+  font-size: 2rem;
+  color: var(--black);
+  padding: 10px;
+}
+
+.history{
+  width: 60%;
+  height: 80%;
+}
